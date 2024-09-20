@@ -1,0 +1,108 @@
+/* 
+============
+navbar
+============
+*/
+
+.nav {
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  color: white;
+}
+
+.nav-items h3 {
+  width: 40%;
+  font-size: 0.5rem;
+  font-weight: 500;
+  text-align: right;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 15%;
+  margin-right: 0.3rem;
+}
+
+.nav-logo h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24.25px;
+  letter-spacing: -0.07em;
+  text-align: left;
+}
+
+
+@media screen and (min-width:500px) {
+    .nav-items {
+        padding: 1rem;
+      }
+      
+      .nav-items h3 {
+        font-size: 0.75rem;
+      }
+      
+      .nav-logo h1 {
+        font-size: 1.2rem;
+
+      } 
+}
+
+@media screen and (min-width:786px) {
+    .nav-items {
+        padding: 1rem 1.5rem;
+      }
+      
+      .nav-items h3 {
+        font-size: 0.85rem;
+      }
+      
+      .nav-logo img {
+        margin-right: 0.4rem;
+      }
+      
+      .nav-logo h1 {
+        font-size: 1.35rem;
+      } 
+}
+
+@media screen and (min-width:992px) {
+    .nav-items {
+        padding: 1rem 1.75rem;
+      }
+      
+      .nav-items h3 {
+        font-size: 1rem;
+      }
+      
+      .nav-logo img {
+        margin-right: 0.5rem;
+      }
+      
+      .nav-logo h1 {
+        font-size: 1.5rem;
+      } 
+}
+
+@media screen and (min-width:1280px) {
+    .nav-items {
+        padding: 1rem 2.5rem;
+      }
+      
+      .nav-items h3 {
+        font-size: 1.2rem;
+      }
+      
+      .nav-logo h1 {
+        font-size: 1.85rem;
+      } 
+}

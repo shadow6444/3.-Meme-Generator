@@ -1,3 +1,4 @@
+import './Meme.css'
 export default function Meme() {
   return (
     <form className="meme-form">
