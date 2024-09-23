@@ -1,7 +1,7 @@
 import logo from "../../assets/troll-face.png";
-import './Header.css';
+import "./Header.css";
 
-export default function Header() {
+const Header = () => {
   return (
     <nav className="nav">
       <div className="nav-items">
@@ -13,4 +13,6 @@ export default function Header() {
       </div>
     </nav>
   );
-}
+};
+
+export default Header;

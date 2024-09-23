@@ -2,11 +2,13 @@ import Header from './components/Header'
 import Meme from './components/Meme'
 
 function App() {
+  
+  
   return (
-    <>
-      <Header/>
-      <Meme/>
-    </>
+      <div>
+        <Header/>
+        <Meme/>
+      </div>
   )
 }
 
